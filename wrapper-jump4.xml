@@ -32,7 +32,7 @@
           </CompanionAds>
           <UniversalAdId idRegistry="Ad-ID" idValue="4244">4244</UniversalAdId>
         </Creative>
-        <Creative id="5480" sequence="1" adId="2447226">
+        <Creative id="42" sequence="1" adId="4242">
           <Linear>
             <TrackingEvents>
               <Tracking event="start">http://example.com/tracking/start</Tracking>
@@ -57,7 +57,7 @@
               </ClickThrough>
             </VideoClicks>
           </Linear>
-          <UniversalAdId idRegistry="Ad-ID" idValue="4243">4243</UniversalAdId>
+          <UniversalAdId idRegistry="Ad-ID" idValue="42">42</UniversalAdId>
         </Creative>
       </Creatives>
       <Description>
