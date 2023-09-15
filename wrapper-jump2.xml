@@ -26,6 +26,7 @@
           </VideoClicks>
         </Creative>
         <Creative id="43" sequence="2" adId="43">
+        <Linear>
             <TrackingEvents>
               <Tracking event="start">http://example.com/tracking/JUMP2-43/start</Tracking>
               <Tracking event="firstQuartile">http://example.com/tracking/JUMP2-43/firstQuartile</Tracking>
