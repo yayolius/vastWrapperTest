@@ -10,6 +10,12 @@
       <Impression id="Impression-ID">http://example.com/track/JUMP3/impression</Impression>
       <Creatives>
         <Creative id="42" sequence="1" adId="4242">
+          <Linear>
+            <VideoClicks>
+              <ClickTracking>http://example.com/click/JUMP3/click-tracking</ClickTracking>
+              <CustomClick>http://example.com/click/JUMP3/click-custom</CustomClick>
+            </VideoClicks>
+          </Linear>
           <CompanionAds>
             <Companion id="1232" width="100" height="150" assetWidth="250" assetHeight="200" expandedWidth="350" expandedHeight="250" apiFramework="VPAID" adSlotID="3214" pxratio="1400">
               <StaticResource creativeType="image/png">

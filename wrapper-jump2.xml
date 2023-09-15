@@ -20,6 +20,10 @@
               <Tracking event="progress" offset="00:00:05">http://example.com/tracking/JUMP2/progress-5</Tracking>
             </TrackingEvents>
           </Linear>
+          <VideoClicks>
+            <ClickTracking>http://example.com/click/JUMP2/click-tracking</ClickTracking>
+            <CustomClick>http://example.com/click/JUMP2/click-custom</CustomClick>
+          </VideoClicks>
         </Creative>
         <Creative id="43" sequence="2" adId="43">
             <TrackingEvents>
