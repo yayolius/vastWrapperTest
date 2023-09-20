@@ -19,13 +19,13 @@
               <Tracking event="complete">http://example.com/tracking/JUMP2/complete</Tracking>
               <Tracking event="progress" offset="00:00:05">http://example.com/tracking/JUMP2/progress-5</Tracking>
             </TrackingEvents>
-          </Linear>
-          <VideoClicks>
+            <VideoClicks>
             <ClickTracking>http://example.com/click/JUMP2/click-tracking</ClickTracking>
-            <CustomClick>http://example.com/click/JUMP2/click-custom</CustomClick>
-            <CustomClick>http://example.com/click/JUMP2/click-custom2</CustomClick>
-            <CustomThrough>http://example.com/click/JUMP2/click-through</CustomThrough>
-          </VideoClicks>
+              <CustomClick>http://example.com/click/JUMP2/click-custom</CustomClick>
+              <CustomClick>http://example.com/click/JUMP2/click-custom2</CustomClick>
+              <CustomThrough>http://example.com/click/JUMP2/click-through</CustomThrough>
+            </VideoClicks>
+          </Linear>
         </Creative>
         <Creative id="43" sequence="2" adId="43">
         <Linear>
