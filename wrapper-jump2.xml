@@ -2,9 +2,6 @@
 <VAST version="4.0" xmlns="http://www.iab.com/VAST">
   <Ad id="420" sequence="1">
     <Wrapper followAdditionalWrappers="0" allowMultipleAds="1" fallbackOnNoAd="0">
-      <AdTitle>
-        <![CDATA[VAST 4.0 second jump to test wrapper jumps]]>
-      </AdTitle>
       <AdSystem version="4.0">iabtechlab</AdSystem>
       <Error>http://example.com/error</Error>
       <Impression id="Impression-ID">http://example.com/track/JUMP2/impression</Impression>
@@ -20,10 +17,9 @@
               <Tracking event="progress" offset="00:00:05">http://example.com/tracking/JUMP2/progress-5</Tracking>
             </TrackingEvents>
             <VideoClicks>
-            <ClickTracking>http://example.com/click/JUMP2/click-tracking</ClickTracking>
+              <ClickTracking>http://example.com/click/JUMP2/click-tracking</ClickTracking>
               <CustomClick>http://example.com/click/JUMP2/click-custom</CustomClick>
               <CustomClick>http://example.com/click/JUMP2/click-custom2</CustomClick>
-              <CustomThrough>http://example.com/click/JUMP2/click-through</CustomThrough>
             </VideoClicks>
           </Linear>
         </Creative>
